@@ -1,0 +1,219 @@
+body{
+  background-image: url(../img/bg3.jpg);
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header img{
+    margin-top: 0px;
+}
+
+.container {
+  display: flex;
+}
+
+.right-s, .midd-s, .left-s {
+  width: 425px;
+  height: 520px;
+  margin-top: -5px;
+  border-radius: 10px;
+  border: 2px solid brown;
+}
+
+.right-s, .midd-s {
+    margin-right: 15px; /* Add margin between the divs */
+}
+
+.right-s {
+    background-color: rgb(46, 46, 46);
+}
+
+.midd-s {
+  background-color: rgb(46, 46, 46);
+}
+
+.left-s {
+  background-color: rgb(46, 46, 46);
+}
+.container .left-s .reg-for{
+  text-align: center;
+  font-size:25px;
+  color: wheat;
+}
+.container .left-s .reg-for input{
+  border: none;
+  width: 80%;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 8px;
+  color: black;
+}
+.container .left-s .reg-for .but
+{
+  width:150px;
+  height: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: aqua;
+  border: 2px solid brown;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: .3s;
+}
+.container .left-s .reg-for .but:hover{
+  background-color: brown;
+  color: aliceblue;
+  border: 2px solid aqua;
+}
+.midd-s h1{
+  color: gold;
+  text-align: center;
+}
+.midd-s .full{
+  text-align: center;
+}
+.right-s .other-btn1{
+  text-align: center;
+  width:200px;
+  height: 30px;
+  background-color: snow;
+  font-size: 25px;
+  border-radius: 0 10px 10px 0;
+  margin-bottom: 8px;
+}
+.right-s .other-btn2{
+  text-align: center;
+  width:200px;
+  height: 30px;
+  background-color: snow;
+  font-size: 25px;
+  border-radius: 0 10px 10px 0;
+  margin-bottom: 8px;
+}
+.right-s .other-btn3{
+  text-align: center;
+  width:200px;
+  height: 30px;
+  background-color: snow;
+  font-size: 25px;
+  border-radius: 0 10px 10px 0;
+  margin-bottom: 8px;
+}
+.right-s .other-btn4{
+  text-align: center;
+  width:200px;
+  height: 30px;
+  background-color: snow;
+  font-size: 25px;
+  border-radius: 0 10px 10px 0;
+  margin-bottom: 8px;
+}
+a{
+  text-decoration: none;
+  color: #123;
+  cursor: pointer;
+}
+.footer p
+{
+  color: #123;
+  font-size: 16px;
+}
+.signin{
+  width: 200px;
+  height: 200px;
+  background-color: rgba(178, 235, 242, 0.4);
+  text-align: center;
+  border-radius: 10px;
+  position: absolute; /* تغيير الوضع إلى absolute */
+  top: 0; /* للحفاظ على الارتفاع في أعلى الصفحة */
+  left: 0; /* لوضعها على الجانب الايسر */
+  margin-top: 20px; /* يمكنك تعديل الهامش العلوي حسب الحاجة */
+  padding:5px ;
+  margin-left: 20px;
+}
+.signin h2{
+  color: black;
+  font-weight: bold;
+  background-color:aqua;
+  border-radius: 30px;
+  width: 100%;
+}
+.signin label{
+  color:#123;
+  font-weight: bold;
+  text-align: left;
+}
+.signin input{
+  border:none;
+  border-radius:10px;
+  margin-bottom: 5px;
+  font-size: 14.5px;
+  padding: 5px;
+}
+.signin-btn{
+  background-color: cadetblue;
+  width:90px;
+  color: beige;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .4s;
+  margin-top: 5px;
+}
+.signin-btn:hover{
+  background-color: #123;
+  color: aqua;
+}
+ 
+/* user's info */
+.signin-info{
+  width: 290px;
+  height: 170px;
+  background-color: rgba(178, 235, 242, 0.4);
+  border-radius: 10px;
+  position: absolute; /* تغيير الوضع إلى absolute */
+  top: 0; /* للحفاظ على الارتفاع في أعلى الصفحة */
+  left: 0; /* لوضعها على الجانب الايسر */
+  margin-top: 20px; /* يمكنك تعديل الهامش العلوي حسب الحاجة */
+  padding:5px ;
+  margin-left: 20px;
+}
+.signin-info h2{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  background-color:aqua;
+  border-radius: 30px;
+  width: 100%;
+}
+.signin-info p{
+  color: #123;
+  font-size: 18px;
+  font-weight: bold;
+}
+.signin-info .prof-ed{
+  text-align: center;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+.signin-info .prof-ed a{
+  color: #123;
+
+}
+.logout-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
